@@ -1,1 +1,5 @@
-# Baseline-Communication-System
+# Baseline Communication System
+
+The general idea of this work is the implementation of a complete point-to-point communication chain. To do so, the analog bandpass processing into a baseband model of transmitter, receiver and channel has been summarized. This model summarizes all channel and hardware effects that are attributed to bandpass processing, including but not limited to up/down conversion, amplification, antenna patterns, and so on. However, some of the bandpass effects have been included into the work by equivalent baseband descriptions as non-linear hardware.
+
+In this work, a simple but very common channel model called Additive White Gaussian Noise (AWGN) has been used. It models the thermal noise generated in receiver parts like antenna and frontend by adding gaussian distributed noise to the transmission signal. Since the work in the baseband, the noise, like the communication signals has to be complex. The Signal-to-Noise-Ratio (SNR) in dB defines the noise power with respect to the signal power.
