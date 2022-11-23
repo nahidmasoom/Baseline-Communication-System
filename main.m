@@ -4,10 +4,6 @@
 
 close all; clear; clc;
 
-addpath('transmitter')
-addpath('receiver')
-addpath('channel')
-
 %% define parameters % set and uncomment the parameters to use
 
 switch_graph_run = 0;               % 0 --> single SNR simulation, 1 --> different SNRs simulation
